@@ -7,9 +7,6 @@ $("#adicionar-task").on("click", () => {
 })
 
 /**
- * Trecho de código que gera um id para uma task
- */
-/**
  * Função que gera uma id aleatório para uma task
  */
 const gerarID = () => "jpTask-" + Math.floor(Date.now() * Math.random()).toString(36) +
